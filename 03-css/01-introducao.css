@@ -1,0 +1,25 @@
+body {
+  background-color: #000000;
+}
+
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+  max-width: 400px;
+}
+
+button {
+  background-color: blue;
+  border: solid white;
+}
+
+.div-direita button {
+  background-color: coral;
+}
+
+.div-esquerda button {
+  background-color: deeppink;
+}
