@@ -1,6 +1,6 @@
 .conteudo {
   width: 50rem;
-  height: 31.25rem;
+  height: auto;
   background-color: gray;
   margin: 0 auto;
 }
@@ -9,4 +9,14 @@
   width: 18.75rem;
   height: 18.75rem;
   background-color: blue;
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.conteudo .caixa-02 {
+  width: 18.75rem;
+  height: 18.75rem;
+  background-color: red;
+  padding: 2rem 2rem 2rem 2rem;
+  border: 5px dashed black;
+  box-sizing: border-box;
 }
