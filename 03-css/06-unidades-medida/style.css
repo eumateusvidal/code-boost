@@ -1,0 +1,20 @@
+* {
+  color: #fff;
+}
+
+body {
+  background-color: #050110;
+}
+
+section {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+section .square {
+  background-color: #1c1824;
+  width: 33,33%;
+  height: 400px;
+  
+}
