@@ -1,0 +1,32 @@
+body {
+  background: #050110;
+}
+
+section {
+  position: relative;
+}
+
+section .square {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50px;
+  left: 50px;
+}
+
+section .square.red {
+  z-index: 1;
+  background-color: red;
+  width: 120px;
+}
+
+section .square.blue {
+  z-index: 2;
+  background-color: blue;
+  width: 110px;
+}
+
+section .square.green {
+    z-index: 3;
+    background-color: green;
+}
