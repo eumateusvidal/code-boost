@@ -1,0 +1,13 @@
+.quadrado {
+  display: none;
+  width: 200px;
+  height: 200px;
+}
+
+.quadrado.red{
+  background-color: red;
+}
+
+.quadrado.blue{
+  background-color: blue;
+}
