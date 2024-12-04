@@ -8,6 +8,8 @@ h1 {
 
 /* regras recomendadas */
 
+/* tablets */
+
 @media(max-width: 1200px) {
 
 }
@@ -15,6 +17,8 @@ h1 {
 @media(max-width: 991px) {
 
 }
+
+/* celulares */
 
 @media(max-width: 600px) {
 
