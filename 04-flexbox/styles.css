@@ -28,8 +28,7 @@ h1 {
 .box {
   border: 2px solid #653DF5;
   background-color: #9D85F3;
-  width: 200px;
-  height: 200px;
+  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -44,7 +43,7 @@ h1 {
   padding: 4rem;
   border: 2px solid #FFFFFF;
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-between;
+ 
 }
