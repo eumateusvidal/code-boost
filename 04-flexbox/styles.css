@@ -28,7 +28,8 @@ h1 {
 .box {
   border: 2px solid #653DF5;
   background-color: #9D85F3;
-  width: 50%;
+  width: 200px;
+  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -36,6 +37,24 @@ h1 {
   font-weight: bold;
 }
 
+.box.one {
+  flex-grow: 1;
+  transition: all .3s ease;
+}
+
+.box.two {
+  flex-grow: 1;
+  transition: all .3s ease;
+}
+
+.box.three {
+  flex-grow: 1;
+  transition: all .3s ease;
+}
+
+.box:hover {
+  flex-grow: 3;
+}
 
 .container {
   width: 80%;
@@ -43,7 +62,4 @@ h1 {
   padding: 4rem;
   border: 2px solid #FFFFFF;
   display: flex;
-  flex-wrap: wrap;
-  align-content: space-between;
- 
 }
