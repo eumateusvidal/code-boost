@@ -25,41 +25,23 @@ h1 {
   font-size: 48px;
 }
 
-.box {
-  border: 2px solid #653DF5;
-  background-color: #9D85F3;
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 3.2rem;
-  font-weight: bold;
-}
-
-.box.one {
-  flex-shrink: 1;
-  flex-basis: 200px;
-}
-
-.box.two {
-  flex-shrink: 1;
-  flex-basis: 300px;
-}
-
-.box.three {
-  flex-shrink: 1;
-  flex-basis: 400px;
-}
-
-.box:hover {
-  flex-basis: auto;
-  transition: all .3s ease;
-}
-
 .container {
   width: 80%;
   min-height: calc(100vh - 200px);
   padding: 4rem;
   border: 2px solid #FFFFFF;
+  display: grid;
+}
+
+
+
+.box {
+  border: 2px solid #653DF5;
+  background-color: #9D85F3;
+  width: 100%;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3.2rem;
+  font-weight: bold;
 }
