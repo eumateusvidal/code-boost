@@ -31,9 +31,9 @@ h1 {
   padding: 4rem;
   border: 2px solid #FFFFFF;
   display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
 }
-
-
 
 .box {
   border: 2px solid #653DF5;
@@ -45,3 +45,4 @@ h1 {
   font-size: 3.2rem;
   font-weight: bold;
 }
+
