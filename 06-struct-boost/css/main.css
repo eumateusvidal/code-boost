@@ -47,7 +47,12 @@ header nav ul li a:hover {
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  display: none;
+}
+
+.s-hero img {
+  max-width: 100%;
+  display: block;
+  overflow: clip;
 }
 
 .s-hero::after {
@@ -106,6 +111,10 @@ header nav ul li a:hover {
 
 .s-hero .illustra {
   padding: 0 1.5rem;
+}
+
+.s-hero .illustra-mobile {
+  display: none;
 }
 
 .s-digital {
@@ -245,6 +254,7 @@ footer .main-area .right {
 }
 
 footer .main-area .right .item-nav {
+  width: 100%;
 }
 
 footer .main-area .right .item-nav h6{
@@ -291,7 +301,9 @@ footer .copy strong {
 
 /* Até tablets */
 @media(max-width: 991px){
-
+  .s-hero::after {
+    height: 14rem;
+  }
 }
 
 
@@ -302,15 +314,84 @@ footer .copy strong {
   header .btn-mobile {
     display: block;
   }
+  .s-hero {
+    padding-top: 6rem;
+  }
+  .s-hero .text h1 {
+    max-width: 490px;
+    margin: 0 auto;
+  }
+
+  .s-hero .text h1 {
+    font-size: 5.6rem;
+  }
+
+  .s-hero .text p {
+    font-size: 1.8rem;
+  }
+
+  .s-hero .text h1::before {
+    background-size: 100%;
+    left: 0;
+    bottom: 0;
+    margin: -4px;
+  }
+
+  .s-hero .text p {
+    max-width: 41.6rem;
+  }  
+
+  .s-hero .text .arrow {
+    position: absolute;
+    bottom: 1.7rem;
+    left: 2rem;
+    max-width: 8rem;
 }
 
 /* Até celulares */
+
 @media(max-width: 560px ) {
   header {
     height: 7.2rem;
+   }
   }
-
+  
   header .logo {
     max-width: 16rem;
   }
+
+  .s-hero {
+    padding-top: 8.8rem;
+  }
+
+  .s-hero .text h1 {
+    font-size: 4rem;
+  }
+
+  .s-hero .text p {
+    font-size: 1.6rem;
+    margin-top: 0.8rem;
+    margin-bottom: 2.4rem;
+  }
+
+  .s-hero .text h1::before {
+    margin: -6px;
+  }
+
+  .s-hero .text .arrow {
+    display: none;
+  }
+
+  .s-hero .illustra {
+    display: none;
+  }
+
+  .s-hero .illustra-mobile {
+    display: block;
+  }
+  
+  .s-hero::after {
+    height: 22rem;
+  }
+
 }
