@@ -118,9 +118,10 @@ header nav ul li a:hover {
 }
 
 .s-digital {
-  padding-top: 12.8rem;
-  width: 100%;
-  display: none;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--gray-800);
+    padding-bottom: 12.8rem;
 }
 
 .s-digital h3 {
@@ -296,13 +297,31 @@ footer .copy strong {
 
 /* Até monitores pequenos */
 @media(max-width: 1200px) {
-
+  .s-digital {
+    padding-top: 7.2rem;
+  }
+  .s-digital ul {
+    gap: 3.2rem;
+    padding-bottom: 7.2rem;
+  }
+  .item-digital .info p {
+    font-size: 1.6rem;
+  }
+  .item-digital .info h6 {
+    font-size: 2rem;
+  }
 }
 
 /* Até tablets */
 @media(max-width: 991px){
   .s-hero::after {
     height: 14rem;
+  }
+
+  .s-digital ul {
+    flex-direction: column;
+    align-items: center;
+    max-width: 32rem;
   }
 }
 
@@ -388,10 +407,30 @@ footer .copy strong {
 
   .s-hero .illustra-mobile {
     display: block;
+    width: 100%;
   }
   
   .s-hero::after {
     height: 22rem;
   }
 
+  .s-digital {
+    padding-top: 8rem;
+  }
+
+  .s-digital ul {
+    margin-bottom: 8rem;
+  }
+
+  .s-digital h3 {
+    font-size: 2.8rem;
+  }
+
+  .s-digital ul {
+    gap: 6.4rem;
+  }
+
+  .item-digital .info p {
+    font-size: 1.8rem;
+  }
 }
