@@ -112,4 +112,24 @@ background-color: #fff;
   .item-digital .info p {
     font-size: 1.8rem;
   }
+
+  .card-post {
+    padding: 1.6rem;
+  }
+
+  .card-post .text h6 {
+    font-size: 1.8rem;
+  }
+
+  .card-post .text p {
+    font-size: 1.4rem;
+  }
+
+  .card-post .image {
+    margin-bottom: 5.4rem;
+  }
+
+  .s-arte-front .all {
+    gap: 3.2rem;
+  }
 }
