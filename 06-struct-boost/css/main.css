@@ -196,7 +196,6 @@ header nav ul li a:hover {
 .s-news-letter {
   background-color: var(--pink-10);
   padding: 8.9rem 0;
-  display: none;
 }
 
 .s-news-letter .container {
@@ -499,5 +498,13 @@ footer .copy strong {
 
   .s-arte-front .title-text .right {
     display: none;
+  }
+
+  .s-news-letter h2 {
+    font-size: 4rem;
+  }
+
+  .s-news-letter p {
+    font-size: 1.6rem;
   }
 }
