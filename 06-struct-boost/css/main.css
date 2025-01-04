@@ -221,7 +221,7 @@ header nav ul li a:hover {
 
 footer {
   padding: 4.8rem 0;
-  display: none;
+
 }
 
 footer .main-area {
@@ -322,6 +322,11 @@ footer .copy strong {
   .s-arte-front .all .card-post:nth-child(2) {
     grid-column: span 3;
   }
+
+  footer .main-area .right {
+    max-width: 66.2rem;
+  }
+
 }
 
 /* Até tablets */
@@ -366,6 +371,25 @@ footer .copy strong {
   .s-arte-front .all .card-post:first-child,
   .s-arte-front .all .card-post:nth-child(2) {
     grid-column: initial;
+  }
+
+  footer .main-area {
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  footer .main-area .left {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  footer .main-area .left img {
+    margin: 0 auto;
+  }
+
+  footer .main-area .right {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
@@ -506,5 +530,43 @@ footer .copy strong {
 
   .s-news-letter p {
     font-size: 1.6rem;
+  }
+
+  footer .main-area .right {
+    flex-direction: column;
+    align-items: center;
+    gap: 4.8rem;
+  }
+
+  footer .main-area .right .item-nav h6 {
+    text-align: center;
+  }
+
+  footer .main-area .right .item-nav ul li a {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .main-area .right .item-nav:last-child {
+    width: 100%;
+  }
+
+  footer .main-area .right .item-nav:last-child ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+
+  footer .main-area .right .item-nav:last-child ul li:not(:last-child) {
+    margin-bottom: 0;
+  }
+
+  footer .main-area {
+    padding-bottom: 4.8rem;
+  }
+
+  footer .copy {
+    text-align: center;
+    font-size: 1.4rem;
   }
 }
