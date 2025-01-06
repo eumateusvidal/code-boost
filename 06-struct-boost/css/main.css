@@ -84,14 +84,25 @@ header nav ul li a:hover {
 
 .s-hero .text h1::before {
   content: '';
-  width: 100%;
+  /* width: 100%; */
   max-width: 59.9rem;
   height: 2.2rem;
-  background: url("../imgs/line-title.svg") no-repeat center center;
+  background: url("../imgs/line-title.svg") no-repeat left center;
   position: absolute;
   bottom: -0.5rem;
   left: 3.9rem;
   z-index: -1;
+  animation: drawnLine ease-in 1s forwards;
+}
+
+@keyframes drawnLine {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 .s-hero .text p {
