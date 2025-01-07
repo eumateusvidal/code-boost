@@ -92,7 +92,7 @@ header nav ul li a:hover {
   bottom: -0.5rem;
   left: 3.9rem;
   z-index: -1;
-  animation: drawnLine ease-in 1s forwards;
+  animation: drawnLine ease-in 1s .5s forwards;
 }
 
 @keyframes drawnLine {
@@ -118,6 +118,19 @@ header nav ul li a:hover {
   position: absolute;
   bottom: 1.7rem;
   left: 5.5rem;
+  animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0px);
+  }
+  50% {
+    transform: translate(15px);
+  }
+  100% {
+    transform: translate(0px);
+  }
 }
 
 .s-hero .illustra {
@@ -132,6 +145,7 @@ header nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid var(--gray-800);
+    padding-top: 12.8rem;
     padding-bottom: 12.8rem;
 }
 

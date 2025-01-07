@@ -8,6 +8,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Structboost - 1 projeto do Codeboost</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/components.css">
   <link rel="stylesheet" href="./css/grid.css">
@@ -41,7 +42,7 @@
 
   <section class="s-hero">
     <div class="container">
-      <div class="text">
+      <div class="text" data-aos="fade-up">
         <h1>Front-end descomplicado e direto ao ponto!</h1>
         <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
         <button class="btn-primary lg">
@@ -50,15 +51,15 @@
         <img src="./imgs/arrow-direction-button.svg" class="arrow" alt="arrow">
       </div>
     </div>
-    <img src="./imgs/illustra-hero.svg" class="illustra" alt="desktop and mobile illustration">
-    <img src="./imgs/illustra-mobile.svg" class="illustra-mobile" alt="desktop and mobile illustration">
+    <img src="./imgs/illustra-hero.svg" class="illustra" alt="desktop and mobile illustration" data-aos="fade-up" data-aos-delay="300">
+    <img src="./imgs/illustra-mobile.svg" class="illustra-mobile" alt="desktop and mobile illustration" data-aos="fade-up">
   </section>
 
   <section class="s-digital">
     <div class="container">
-      <h3>Transformando Ideias em Realidade Digital!</h3>
+      <h3 data-aos="fade-right">Transformando Ideias em Realidade Digital!</h3>
       <ul>
-        <li>
+        <li data-aos="fade-right" data-aos-delay="300">
           <div class="item-digital">
             <div class="icon">
               <img src="./imgs/icon-impacto.svg" alt="">
@@ -71,7 +72,7 @@
             </div>
           </div>      
         </li>
-        <li>
+        <li data-aos="fade-up" data-aos-delay="300">
           <div class="item-digital">
             <div class="icon">
               <img src="./imgs/icon-nav.svg" alt="">
@@ -84,7 +85,7 @@
             </div>
           </div>      
         </li>
-        <li>
+        <li data-aos="fade-left" data-aos-delay="300">
           <div class="item-digital">
             <div class="icon">
               <img src="./imgs/icon-performance.svg" alt="">
@@ -104,16 +105,17 @@
   <section class="s-arte-front">
     <div class="container">
       <div class="title-text">
-        <div class="left">
+        <div class="left" data-aos="fade-right">
           <h3>Domine a Arte da Front-end</h3>
           <p>Prepare-se para criar interfaces incríveis e funcionais para a web com este curso completo de front-end.</p>
         </div>
-        <div class="right">
+        <div class="right" data-aos="fade-left">
           <p>Junte-se a nós neste curso de front-end e embarque em uma jornada emocionante para se tornar um desenvolvedor web altamente qualificado.</p>
         </div>
       </div>
       <div class="all">
-        <div class="card-post">
+        <div class="card-post" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic>
           <span class="tag">
             Fundamentos
           </span>
@@ -129,7 +131,8 @@
             </p>
           </div>
         </div>
-        <div class="card-post">
+        <div class="card-post" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic>
           <span class="tag">
             Estilizando
           </span>
@@ -145,7 +148,8 @@
             </p>
           </div>
         </div>
-        <div class="card-post">
+        <div class="card-post" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic>
           <span class="tag">
             Potencializando
           </span>
@@ -161,7 +165,8 @@
             </p>
           </div>
         </div>
-        <div class="card-post">
+        <div class="card-post" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic>
           <span class="tag">
             Aplicações
           </span>
@@ -177,7 +182,8 @@
             </p>
           </div>
         </div>
-        <div class="card-post">
+        <div class="card-post" data-aos="flip-left"
+        data-aos-easing="ease-out-cubic>
           <span class="tag">
             Designs
           </span>
@@ -197,7 +203,7 @@
   </section>
 
   <div class="s-news-letter">
-    <div class="container">
+    <div class="container" data-aos="zoom-out">
       <h2>Front-end descomplicado e direto ao ponto!</h2>
       <p>Aprenda a desenvolver interfaces modernas e de alta qualidade com quem está na área atuando com projetos altamente renomados.</p>
       <button class="btn-primary white lg">
@@ -281,7 +287,13 @@
       <p class="copy">2023 © Todos os direitos reservados. <strong>Codeboost</strong></p>
     </div>
   </footer>
-
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 1000,
+      disable: 'mobile'
+    });
+  </script>
 </body>
 
 </html>
