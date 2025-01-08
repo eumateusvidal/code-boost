@@ -4,7 +4,6 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-family: "Inter", sans-serif;
-  // font-family: "Space Grotesk", sans-serif;
   color: #fff;
 }
 
@@ -24,7 +23,7 @@ a {
 }
 
 button {
-  all:unset;
+  all: unset;
   cursor: pointer;
 }
 
@@ -32,3 +31,11 @@ ul {
   list-style: none;
 }
 
+.container {
+  width: 100%;
+  max-width: 124.6rem;
+  padding: 0 1.6rem;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=main.css.map */
