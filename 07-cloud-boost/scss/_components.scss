@@ -12,6 +12,12 @@
   &:hover {
     background-color: $purple-20;
   }
+  @include responsivo('laptop') {
+    color: red;
+  } 
+  @include responsivo('tablet') {
+    color: yellow;
+  }
 }
 
 .form-email {
@@ -22,8 +28,7 @@
   align-items: center;
   justify-content: flex-end;
   padding: 0.4rem 0.4rem 0.4rem 2.4rem;
-  display: flex;
-  align-items: center;
+  @include flex-center;
   max-width: 52.1rem;
   width: 100%;
   gap: 1.6rem;
@@ -48,9 +53,7 @@
     border-radius: 0.4rem;
     border: 1px solid rgba(255, 255, 255, 0.03);
     background: rgba(255, 255, 255, 0.03);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    @include flex-total-center;
     width: 4.8rem;
     height: 4.8rem;
   }
@@ -90,7 +93,7 @@
       line-height: 150%;
       & strong {
         color: $gray-600;
-        font-weight: 600;
+        font-weight: 400;
       }
     }
   }

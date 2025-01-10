@@ -80,6 +80,16 @@ h5 {
 .btn-primary:hover {
   background-color: #4E32B5;
 }
+@media (max-width: 1200px) {
+  .btn-primary {
+    color: red;
+  }
+}
+@media (max-width: 991px) {
+  .btn-primary {
+    color: yellow;
+  }
+}
 
 .form-email {
   border-radius: 10rem;
@@ -117,8 +127,8 @@ h5 {
   border: 1px solid rgba(255, 255, 255, 0.03);
   background: rgba(255, 255, 255, 0.03);
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
   width: 4.8rem;
   height: 4.8rem;
 }
@@ -161,6 +171,43 @@ h5 {
 .review > div span strong {
   color: #787C87;
   font-weight: 400;
+}
+
+header {
+  position: sticky;
+  top: 1.6rem;
+  z-index: 999;
+  margin-top: 1.6rem;
+}
+header .content-header {
+  border-radius: 10rem;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(3.5px);
+  padding: 0.8rem 0.8rem 0.8rem 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .content-header .left-content {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+header .content-header .left-content a {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+}
+header .content-header .left-content a span {
+  color: #DFE1E8;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 150%;
+  transition: color 0.3s ease;
+}
+header .content-header .left-content a:hover span {
+  color: #653DF5;
 }
 
 /*# sourceMappingURL=main.css.map */
