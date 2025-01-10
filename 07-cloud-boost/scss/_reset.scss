@@ -4,13 +4,12 @@
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
   font-family: "Inter", sans-serif;
-  // font-family: "Space Grotesk", sans-serif;
   color: #fff;
 }
 
 html {
   font-size: 62.5%;
-  background-color: #0A0B0D;
+  background-color: $gray-900;
 }
 
 img {
