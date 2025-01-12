@@ -1,0 +1,11 @@
+.s-hero {
+  padding: 8rem;
+  .hero-content {
+    @include flex-center-justify;
+    .left{
+      flex: 1;
+      max-width: 60rem;
+    
+    }
+  }
+}

@@ -38,6 +38,19 @@ ul {
   margin: 0 auto;
 }
 
+.s-hero {
+  padding: 8rem;
+}
+.s-hero .hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-hero .hero-content .left {
+  flex: 1;
+  max-width: 60rem;
+}
+
 h1, h2, h3, h4, h5 {
   color: #F5F6FA;
   font-family: "Space Grotesk", sans-serif;
