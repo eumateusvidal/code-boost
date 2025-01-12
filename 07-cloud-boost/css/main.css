@@ -39,9 +39,11 @@ ul {
 }
 
 .s-hero {
-  padding: 8rem;
+  padding-top: 8rem;
 }
 .s-hero .hero-content {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 9.7rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -49,6 +51,92 @@ ul {
 .s-hero .hero-content .left {
   flex: 1;
   max-width: 60rem;
+}
+.s-hero .hero-content .left h1 {
+  font-size: 5.6rem;
+  line-height: 120%;
+  margin-bottom: 1.6rem;
+}
+.s-hero .hero-content .left h1 span {
+  text-decoration: underline;
+  color: #653DF5;
+  font-family: "Space Grotesk", sans-serif;
+}
+.s-hero .hero-content .left p {
+  max-width: 49.1rem;
+  color: #DFE1E8;
+  font-size: 2.2rem;
+  line-height: 150%;
+  margin-bottom: 3.2rem;
+}
+.s-hero .hero-content .left ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 339px;
+  width: 100%;
+  margin: 4.8rem 0;
+}
+.s-hero .hero-content .left .review {
+  display: flex;
+  align-items: center;
+}
+
+.s-recursos {
+  padding-top: 11.1rem;
+}
+.s-recursos .top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 8rem;
+}
+.s-recursos .top h3 {
+  max-width: 66.1rem;
+  letter-spacing: -0.12rem;
+}
+.s-recursos .top p {
+  color: #DFE1E8;
+  font-size: 1.6rem;
+  line-height: 150%;
+}
+.s-recursos .all {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 11.1rem;
+}
+
+.s-marketing {
+  padding-top: 9.6rem;
+  padding-bottom: 12.6rem;
+}
+.s-marketing .box {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 8.1rem 0;
+  background: url("../img/bg-box.svg") no-repeat center center;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.s-marketing .box h2 {
+  color: #F5F6FA;
+  font-size: 5.6rem;
+  letter-spacing: -0.168rem;
+  max-width: 78.6rem;
+  margin-bottom: 0.8rem;
+}
+.s-marketing .box p {
+  color: #DFE1E8;
+  text-align: center;
+  font-size: 2rem;
+  line-height: 150%;
+  max-width: 50.1rem;
+  margin-bottom: 3.2rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -130,9 +218,8 @@ h5 {
 }
 
 .card-recurso {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: flex-start;
+  width: 100%;
+  max-width: 26.5rem;
   gap: 1.6rem;
 }
 .card-recurso .icon {
@@ -144,14 +231,14 @@ h5 {
   justify-content: center;
   width: 4.8rem;
   height: 4.8rem;
+  margin-bottom: 1.6rem;
 }
 .card-recurso .text {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 1.6rem;
+  gap: 0.8rem;
   width: 100%;
-  max-width: 22.5rem;
 }
 .card-recurso .text h6 {
   color: #F5F6FA;

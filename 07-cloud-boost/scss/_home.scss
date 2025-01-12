@@ -1,11 +1,92 @@
 .s-hero {
-  padding: 8rem;
+  padding-top: 8rem;
   .hero-content {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+    padding-bottom: 9.7rem;
     @include flex-center-justify;
     .left{
       flex: 1;
       max-width: 60rem;
-    
+      h1 {
+        font-size: 5.6rem;
+        line-height: 120%;
+        margin-bottom: 1.6rem;
+        span {
+          text-decoration: underline;
+          color: $purple-10;
+          font-family: "Space Grotesk", sans-serif;
+        }
+      }
+      p {
+        max-width: 49.1rem;
+        color: $gray-200;
+        font-size: 2.2rem;
+        line-height: 150%;
+        margin-bottom: 3.2rem;
+      }
+      ul {
+        @include flex-center-justify;
+        max-width: 339px;
+        width: 100%;
+        margin: 4.8rem 0;
+      }
+      .review {
+        @include flex-center;
+      }
+    }
+  }
+}
+
+.s-recursos{
+    padding-top: 11.1rem;
+    .top {
+      @include flex-center-justify;
+      margin-bottom: 8rem;
+      h3 {
+        max-width: 66.1rem;
+        letter-spacing: -0.12rem;
+      }
+      p {
+        color: $gray-200;
+        font-size: 1.6rem;  
+        line-height: 150%;
+      }
+    }
+    .all {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.10);
+      padding-bottom: 11.1rem;
+    }
+}
+
+.s-marketing {
+  padding-top: 9.6rem;
+  padding-bottom: 12.6rem;
+  .box{
+    width: 100%;
+    @include flex-center;
+    flex-direction: column;
+    text-align: center;
+    padding: 8.1rem 0;
+    background: url('../img/bg-box.svg') no-repeat center center;
+    border-radius: 1rem;
+    overflow: hidden;
+    h2 {
+      color: $gray-100;
+      font-size: 5.6rem;
+      letter-spacing: -0.168rem;
+      max-width: 78.6rem;
+      margin-bottom: 0.8rem;
+    }
+    p {
+      color: $gray-200;
+      text-align: center;
+      font-size: 2rem;
+      line-height: 150%;
+      max-width: 50.1rem;
+      margin-bottom: 3.2rem;
     }
   }
 }

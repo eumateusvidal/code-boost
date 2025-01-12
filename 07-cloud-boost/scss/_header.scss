@@ -31,4 +31,13 @@ header {
       }
     }
   }
+  @include responsivo ('laptop') {
+    
+  }
+  @include responsivo ('tablet') {
+
+  }
+  @include responsivo ('mobile') {
+
+  }
 }
