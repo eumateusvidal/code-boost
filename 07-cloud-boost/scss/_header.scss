@@ -10,6 +10,9 @@ header {
     backdrop-filter: blur(3.5px);
     padding: 0.8rem 0.8rem 0.8rem 1.6rem;
     @include flex-center-justify;
+    .btn-mobile {
+      display: none;
+    }
     .left-content {
       @include flex-center;
       gap: 1.6rem;
@@ -31,13 +34,18 @@ header {
       }
     }
   }
-  @include responsivo ('laptop') {
-    
-  }
-  @include responsivo ('tablet') {
-
-  }
   @include responsivo ('mobile') {
-
+    .content-header {
+      padding: 2rem 2.6rem;
+      .btn-mobile {
+        display: block;
+      }
+      .left-content {
+        display: none;
+      }
+      .logo {
+        max-width: 13.5rem;
+      }
+    }
   }
 }

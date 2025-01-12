@@ -1,5 +1,5 @@
 .s-hero {
-  padding-top: 8rem;
+  padding-top: 8rem;  
   .hero-content {
     border-bottom: 1px solid rgba(255, 255, 255, 0.10);
     padding-bottom: 9.7rem;
@@ -34,11 +34,75 @@
         @include flex-center;
       }
     }
+    .img-mobile {
+      display: none;
+    }
+  }
+  @include responsivo ('laptop') {
+    padding-top: 5rem;
+    .hero-content {
+      padding-bottom: 5rem;
+      .left {
+        max-width: 55rem;
+        h1 {
+          font-size: 4.8rem;
+        }
+        p {
+          font-size: 2rem;
+        }
+      }
+      & > img {
+        max-width: 53rem;
+      }
+    }
+  }
+  @include responsivo ('tablet'){
+    .hero-content {
+      flex-direction: column;
+      gap: 4rem;
+      .left {
+        max-width: 100%;
+        text-align: center;
+        p {
+          margin: 0 auto;
+          max-width: 52rem;
+          margin-bottom: 3rem;
+        }
+        ul {
+          margin: 4rem auto;
+        }
+      }
+    }
+  }
+  @include responsivo ('mobile') {
+    padding-top: 7.2rem;
+    .hero-content {
+      .left {
+        h1 {
+          font-size: 4rem;
+          span {
+            display: block;
+          }
+        }
+        p {
+          font-size: 1.6rem;
+          max-width: 32rem;
+        }
+      }
+      & > img {
+        display: none;
+        max-width: 100%;
+        &.img-mobile {
+          display: block;
+        }
+      }
+    }
   }
 }
 
 .s-recursos{
     padding-top: 11.1rem;
+    display: none;
     .top {
       @include flex-center-justify;
       margin-bottom: 8rem;
@@ -64,6 +128,7 @@
 .s-marketing {
   padding-top: 9.6rem;
   padding-bottom: 12.6rem;
+  display: none;
   .box{
     width: 100%;
     @include flex-center;
