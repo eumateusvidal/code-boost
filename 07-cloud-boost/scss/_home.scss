@@ -102,7 +102,6 @@
 
 .s-recursos{
     padding-top: 11.1rem;
-    display: none;
     .top {
       @include flex-center-justify;
       margin-bottom: 8rem;
@@ -123,12 +122,67 @@
       border-bottom: 1px solid rgba(255, 255, 255, 0.10);
       padding-bottom: 11.1rem;
     }
+    @include responsivo ('laptop') {
+      padding-top: 5rem;
+      .all {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+
+        .card-recurso {
+          max-width: 100%;
+          
+          .icon {
+            margin: 0 auto;
+            margin-bottom: 2rem;
+          }
+          .text {
+            text-align: center;
+            align-items: center;
+          }
+        }
+      }
+    }
+    @include responsivo ('tablet') {
+      .top {
+        margin: 0 auto;
+        flex-direction: column;
+        gap: 1.6rem;
+        margin-bottom: 5.6rem;
+        text-align: center;
+        h3 {
+          text-align: center;
+        }
+      }
+      .all {
+        padding-bottom: 5rem;
+      }
+    }
+    @include responsivo ('mobile'){
+      padding-top: 4rem; 
+      .top {
+        max-width: 33.6rem;
+        h3 {
+          font-size: 2.8rem;
+        }
+        p {
+          font-size: 1.6rem;
+        }
+      }
+      .all {
+        grid-template-columns: 1fr;
+        gap: 6.4rem;
+        .card-recurso {
+          max-width: 28.4rem;
+          margin: 0 auto;
+        }
+      }
+    }
 }
 
 .s-marketing {
   padding-top: 9.6rem;
   padding-bottom: 12.6rem;
-  display: none;
   .box{
     width: 100%;
     @include flex-center;
@@ -152,6 +206,27 @@
       line-height: 150%;
       max-width: 50.1rem;
       margin-bottom: 3.2rem;
+    }
+  }
+  @include responsivo ('tablet') {
+    .box {
+      padding: 3.2rem 2rem;
+    }
+  }
+  @include responsivo('mobile') {
+    padding-top: 7.2rem;
+    padding-bottom: 9.7rem;
+    .box {
+      padding: 7.2rem 1rem;
+      height: auto;
+      background-size: cover;
+      h2 {
+        font-size: 3.2rem;
+      }
+      p {
+        font-size: 1.8rem;
+        margin-bottom: 2.4rem;
+      }
     }
   }
 }
