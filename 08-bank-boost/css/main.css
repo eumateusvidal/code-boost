@@ -51,11 +51,31 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
 .container {
   width: 100%;
   max-width: 124.6rem;
   margin: 0 auto;
   padding: 0 1.5rem;
+}
+
+header {
+  width: 100%;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.16);
+  padding: 2.4rem 0;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header .right {
+  flex: 1;
+  max-width: 8;
 }
 
 /*# sourceMappingURL=main.css.map */
