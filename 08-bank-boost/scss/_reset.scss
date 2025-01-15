@@ -3,8 +3,29 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-font-smoothing: antialiased;
+  color: var(--white);
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--black);
 }
 
 html {
   font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+}
+
+ul {
+  list-style: none;
 }
