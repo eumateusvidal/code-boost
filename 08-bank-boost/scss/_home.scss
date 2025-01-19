@@ -160,7 +160,7 @@
     }
     .right {
       flex: 1;
-      max-width: 69.7rem;
+      max-width: 80rem;
       h2 {
         width: 100%;
         max-width: 46.3rem;
@@ -171,7 +171,8 @@
         letter-spacing: -0.1rem;
         margin-bottom: 5.6rem;
       }
-      ul {
+      .list {
+        max-width: 69.7rem;
         margin-bottom: 3.2rem;
         li {
           display: flex;
@@ -218,6 +219,65 @@
           bottom: 0.4rem;
           right: -1.6rem;
       
+        }
+      }
+      .box {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 41rem;
+        border-radius: 1rem;
+        background: linear-gradient(114deg, #1A0078 -25.6%, #6F47FF 121.77%);
+        margin-top: 12.8rem;
+        padding-left: 7.2rem;
+        .text {
+          flex: 1;
+          width: 100%;
+          max-width: 38rem;
+          h3 {
+            color: var(--gray-100);
+            font-size: 4rem;
+            font-weight: 600;
+            letter-spacing: -0.2rem;
+            margin-bottom: 0.8rem;
+          }
+          h5 {
+            color: var(--gray-100);
+            font-size: 2.8rem;
+            font-weight: 500;
+            line-height: 120%;
+            letter-spacing: -0.1rem;
+            margin-bottom: 0.8rem;
+          }
+          p {
+            color: var(--gray-200);
+            font-size: 1.6rem;
+            line-height: 150%;
+            margin-bottom: 3.2rem;
+          }
+          ul {
+            display: flex;
+            align-items: center;
+            gap: 1.6rem;
+            a {
+              padding: 1.5rem 3.5rem;
+              background-color: var(--yellow);
+              border-radius: 10rem;
+              color: #855B35;
+              text-align: center;
+              font-size: 1.6rem;
+              font-weight: 700;
+              transition: all 0.3s ease;
+              &:hover {
+                background-color: var(--white);
+                color: var(--purple-10);
+              }
+            }
+          }
+        }
+        .card {
+          position: relative;
+          left: 3.2rem;
         }
       }
     }
