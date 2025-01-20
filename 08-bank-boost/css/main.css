@@ -396,4 +396,76 @@ header .right .btn:hover {
   left: 3.2rem;
 }
 
+.s-depositions {
+  padding-top: 6.7rem;
+  padding-bottom: 8.45rem;
+}
+.s-depositions .title {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.s-depositions .title h2 {
+  color: rgba(151, 155, 166, 0.8);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+  margin-bottom: 4.6rem;
+}
+.s-depositions .title h2 strong {
+  display: block;
+  color: var(--gray-800);
+  font-size: 4rem;
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+}
+.s-depositions .swiper-pagination {
+  position: relative;
+  width: auto;
+  bottom: 46px;
+}
+.s-depositions .swiper-pagination-bullet {
+  background-color: #CCC1F1;
+  opacity: 1;
+  width: 1.2rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+}
+.s-depositions .swiper-pagination-bullet-active {
+  background-color: #5431D0;
+  width: 1.8rem;
+}
+.s-depositions .slide-deposition {
+  overflow: hidden;
+}
+.s-depositions .card-deposition {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 38.4rem;
+  height: 20.9rem;
+  border-radius: 0.8rem;
+  background: rgba(241, 240, 245, 0.55);
+  padding: 3.7rem 4rem 2.3rem 3.2rem;
+  gap: 2.1rem;
+}
+.s-depositions .card-deposition .user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.s-depositions .card-deposition .user span {
+  color: var(--gray-800);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+}
+.s-depositions .card-deposition p {
+  color: var(--gray-600);
+  font-size: 1.8rem;
+  line-height: 2.7rem;
+}
+
 /*# sourceMappingURL=main.css.map */
