@@ -113,6 +113,114 @@ header .right .btn:hover {
   border: 1px solid var(--white);
 }
 
+footer {
+  position: relative;
+  background-color: var(--purple-10);
+  padding: 4rem 0;
+}
+footer::after {
+  content: "";
+  width: 100%;
+  max-width: 121.6rem;
+  height: 4px;
+  background-color: var(--yellow);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -60.8rem;
+}
+footer .area-social {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 4rem;
+  margin-bottom: 4rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+footer .area-social .social-media {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+footer .area-social .social-media span {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1.4rem;
+}
+footer .area-social .social-media ul {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+footer .main-area {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-bottom: 5.6rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 2.4rem;
+}
+footer .main-area .left {
+  max-width: 84.1rem;
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+footer .main-area .left .item h5 {
+  color: var(--white);
+  font-family: "Inter" sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+footer .main-area .left .item ul {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+footer .main-area .left .item ul a {
+  color: rgba(255, 255, 255, 0.67);
+  font-size: 1.4rem;
+}
+footer .main-area .right {
+  flex: 1;
+  max-width: 29.9rem;
+}
+footer .main-area .right a {
+  display: flex;
+  align-items: center;
+  padding: 2.6rem 1.4rem 2.6rem 2.4rem;
+  gap: 1.6rem;
+  border-radius: 0.6rem;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+footer .main-area .right a:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+footer .main-area .right a .description strong {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 600;
+  line-height: 150%;
+}
+footer .main-area .right a .description p {
+  color: var(--white);
+  font-size: 1.4rem;
+  line-height: 150%;
+}
+footer .copy .text {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.6rem;
+  max-width: 69.4rem;
+}
+footer .copy .text p {
+  color: var(--white);
+  font-size: 1.4rem;
+  font-weight: 400;
+  opacity: 0.8;
+}
+
 .s-hero {
   width: 100%;
   height: 80.4rem;
@@ -466,6 +574,96 @@ header .right .btn:hover {
   color: var(--gray-600);
   font-size: 1.8rem;
   line-height: 2.7rem;
+}
+
+.s-account {
+  padding-top: 8.75rem;
+  padding-bottom: 14.1rem;
+}
+.s-account .container {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.s-account .container .left {
+  flex: 1;
+  max-width: 53.2rem;
+}
+.s-account .container .left h2 {
+  color: rgba(171, 175, 186, 0.8);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 112%;
+  letter-spacing: -0.1rem;
+}
+.s-account .container .left h2 strong {
+  font-family: "Poppins" sans-serif;
+  display: block;
+  color: var(--gray-800);
+  font-size: 4rem;
+  font-weight: 600;
+  line-height: 120%;
+  letter-spacing: -0.1rem;
+}
+.s-account .container .left ul {
+  margin: 4.8rem 0;
+  flex: 1;
+}
+.s-account .container .left ul li {
+  display: flex;
+  align-items: center;
+  gap: 2.4rem;
+}
+.s-account .container .left ul li:not(:last-child) {
+  margin-bottom: 4.8rem;
+}
+.s-account .container .left ul li .text {
+  flex: 1;
+}
+.s-account .container .left ul li .text h4 {
+  color: var(--gray-800);
+  font-size: 2rem;
+  font-weight: 600;
+  line-height: 150%;
+  letter-spacing: -0.05rem;
+}
+.s-account .container .left ul li .text p {
+  color: var(--gray-600);
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+}
+.s-account .container .left .btn {
+  padding: 1.2rem 2.6rem;
+  border-radius: 10rem;
+  background-color: var(--yellow);
+  color: var(--brown);
+  text-align: center;
+  font-family: "Poppins" sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  transition: all 0.35s ease;
+}
+.s-account .container .left .btn:hover {
+  background-color: var(--purple-10);
+  color: var(--white);
+}
+.s-account .container .right {
+  position: relative;
+  flex: 1;
+  max-width: 47.9rem;
+  height: 52.9rem;
+}
+.s-account .container .right .mockup {
+  position: absolute;
+}
+.s-account .container .right .mockup.one {
+  bottom: -6.2rem;
+  left: -5rem;
+}
+.s-account .container .right .mockup.two {
+  top: -4.1rem;
+  right: -4.8rem;
 }
 
 /*# sourceMappingURL=main.css.map */

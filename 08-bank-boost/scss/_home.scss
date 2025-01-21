@@ -357,3 +357,93 @@
     }
   }
 }
+
+.s-account {
+  padding-top: 8.75rem;
+  padding-bottom: 14.1rem;
+  .container {
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+    .left {
+      flex: 1;
+      max-width: 53.2rem;
+      h2 {
+        color: rgba(171, 175, 186, 0.8);
+        font-size: 4rem;
+        font-weight: 600;
+        line-height: 112%;
+        letter-spacing: -0.1rem;
+        strong {
+          font-family: "Poppins" sans-serif;
+          display: block; 
+          color: var(--gray-800);
+          font-size: 4rem;
+          font-weight: 600;
+          line-height: 120%;
+          letter-spacing: -0.1rem;
+        }
+      }
+      ul {
+        margin: 4.8rem 0;
+        flex: 1;
+        li {
+          display: flex;
+          align-items: center;
+          gap: 2.4rem;
+          &:not(:last-child) {
+            margin-bottom: 4.8rem;
+          }
+          .text {
+            flex: 1;
+            h4 {
+              color: var(--gray-800);
+              font-size: 2rem;
+              font-weight: 600;
+              line-height: 150%;
+              letter-spacing: -0.05rem;
+            }
+            p {
+              color: var(--gray-600);
+              font-size: 1.8rem;
+              font-weight: 400;
+              line-height: 2.7rem;
+            }
+          }
+        }
+      }
+      .btn {
+        padding: 1.2rem 2.6rem;
+        border-radius: 10rem;
+        background-color: var(--yellow);
+        color: var(--brown);
+        text-align: center;
+        font-family: "Poppins" sans-serif;
+        font-size: 1.6rem;
+        font-weight: 600;
+        transition: all 0.35s ease;
+        &:hover {
+          background-color: var(--purple-10);
+          color: var(--white);
+        }
+      }
+    }
+    .right {
+      position: relative;
+      flex: 1;
+      max-width: 47.9rem;
+      height: 52.9rem;
+      .mockup {
+        position: absolute;
+        &.one {
+          bottom: -6.2rem;
+          left: -5rem;
+        }
+        &.two{
+          top: -4.1rem;
+          right: -4.8rem;
+        }
+      }
+    }
+  }
+}
