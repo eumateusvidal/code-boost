@@ -33,6 +33,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: var(--purple-10);
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -111,6 +115,32 @@ header .right .btn:hover {
   background-color: var(--white);
   color: var(--purple-10);
   border: 1px solid var(--white);
+}
+header .btn-mobile {
+  display: none;
+}
+@media (max-width: 1200px) {
+  header .right {
+    max-width: 81.6;
+    gap: 3rem;
+  }
+  header .right .btn {
+    padding: 1.2rem 1.6rem;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1050px) {
+  header {
+    max-width: 74.6;
+  }
+}
+@media (max-width: 991px) {
+  header .right {
+    display: none;
+  }
+  header .btn-mobile {
+    display: block;
+  }
 }
 
 footer {
