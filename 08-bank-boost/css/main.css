@@ -351,6 +351,114 @@ footer .copy .text p {
   bottom: 0;
   right: 0;
 }
+@media (max-width: 1200px) {
+  .s-hero {
+    height: 63.4rem;
+    padding-top: 16rem;
+  }
+  .s-hero .container .left {
+    max-width: 52.1rem;
+  }
+  .s-hero .container .left h3 {
+    font-size: 2rem;
+    margin-bottom: 1.6rem;
+  }
+  .s-hero .container .left h1 {
+    font-size: 5rem;
+    margin-bottom: 2rem;
+  }
+  .s-hero .container .left ul {
+    gap: 2rem;
+  }
+  .s-hero .container .right {
+    max-width: 49.8rem;
+    margin-right: 0;
+  }
+  .s-hero .container .right h2 {
+    font-size: 4rem;
+    margin-bottom: 5rem;
+  }
+  .s-hero .container .right .cards {
+    height: 36.2rem;
+  }
+  .s-hero .container .right .cards .item.card-one {
+    max-width: 35rem;
+  }
+  .s-hero .container .right .cards .item.card-two {
+    max-width: 25.3rem;
+  }
+}
+@media (max-width: 1050px) {
+  .s-hero .container .right {
+    margin-right: -6rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-hero {
+    height: auto;
+    padding-bottom: 6rem;
+  }
+  .s-hero .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 5rem;
+  }
+  .s-hero .container .left {
+    max-width: 100%;
+    text-align: center;
+  }
+  .s-hero .container .left ul {
+    max-width: 100%;
+    justify-content: center;
+  }
+  .s-hero .container .left ul li span {
+    text-align: left;
+  }
+  .s-hero .container .right {
+    max-width: 49.8rem;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 560px) {
+  .s-hero {
+    padding-top: 14.4rem;
+    padding-bottom: 5.56rem;
+  }
+  .s-hero .container .left h3 {
+    font-size: 1.6rem;
+  }
+  .s-hero .container .left h1 {
+    font-size: 3.2rem;
+    margin-bottom: 2.4rem;
+  }
+  .s-hero .container .left .btn {
+    margin-bottom: 4rem;
+  }
+  .s-hero .container .left ul {
+    flex-direction: column;
+    max-width: 27.8rem;
+    margin: 0 auto;
+    align-items: flex-start;
+  }
+  .s-hero .container .left ul li span br {
+    display: none;
+  }
+  .s-hero .container .right h2 {
+    display: none;
+  }
+  .s-hero .container .right .cards {
+    max-width: 33.6rem;
+    height: 25rem;
+    margin: 0 auto;
+  }
+  .s-hero .container .right .cards .item.card-one {
+    max-width: 25rem;
+  }
+  .s-hero .container .right .cards .item.card-two {
+    max-width: 20rem;
+  }
+}
 
 .s-boost {
   padding-top: 11.2rem;
