@@ -490,6 +490,67 @@
       }
     }
   }
+  @media (max-width: 560px) {
+    padding-top: 4rem;
+    .container {
+      gap: 9rem;
+      .left {
+
+      }
+      .right {
+        height: 47rem;
+        width: 100%;
+        h2 {
+          font-size: 2.8rem;
+          margin-bottom: 4rem;
+          text-align: center;
+        }
+        .list {
+          font-size: 2.8rem;
+          margin-bottom: 4rem;
+          li {
+            gap: 2.7rem;
+            align-items: flex-start;
+            .text {
+              flex: 1;
+              h4 {
+                font-size: 1.8rem;
+                text-wrap: balance;
+              }
+              p {
+                font-size: 1.4rem;
+              }
+            }
+          }
+        }
+        .btn {
+          display: block;
+          margin: 0 auto;
+          max-width: 18.5rem;
+          text-align: center;
+        }
+        .box {
+          padding: 4.8rem 2.8rem 0 2.8rem;
+          gap: 3.2rem;
+          margin-top: 4rem;
+          margin-bottom: 4rem;
+          .text {
+            h3 {
+              font-size: 2.8rem;
+            }
+            h5 {
+              font-size: 2rem;
+              line-height: 150%;
+            }
+            p {
+              font-size: 1.6rem;
+              text-wrap: balance;
+            }
+          }
+        }
+      }
+    }
+  }
 }
 
 .s-depositions {

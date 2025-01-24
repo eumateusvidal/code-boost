@@ -717,6 +717,64 @@ footer .copy .text p {
     left: 0;
   }
 }
+@media (max-width: 560px) {
+  .s-boost {
+    padding-top: 4rem;
+  }
+  .s-boost .container {
+    gap: 9rem;
+  }
+  .s-boost .container .right {
+    height: 47rem;
+    width: 100%;
+  }
+  .s-boost .container .right h2 {
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+    text-align: center;
+  }
+  .s-boost .container .right .list {
+    font-size: 2.8rem;
+    margin-bottom: 4rem;
+  }
+  .s-boost .container .right .list li {
+    gap: 2.7rem;
+    align-items: flex-start;
+  }
+  .s-boost .container .right .list li .text {
+    flex: 1;
+  }
+  .s-boost .container .right .list li .text h4 {
+    font-size: 1.8rem;
+    text-wrap: balance;
+  }
+  .s-boost .container .right .list li .text p {
+    font-size: 1.4rem;
+  }
+  .s-boost .container .right .btn {
+    display: block;
+    margin: 0 auto;
+    max-width: 18.5rem;
+    text-align: center;
+  }
+  .s-boost .container .right .box {
+    padding: 4.8rem 2.8rem 0 2.8rem;
+    gap: 3.2rem;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+  .s-boost .container .right .box .text h3 {
+    font-size: 2.8rem;
+  }
+  .s-boost .container .right .box .text h5 {
+    font-size: 2rem;
+    line-height: 150%;
+  }
+  .s-boost .container .right .box .text p {
+    font-size: 1.6rem;
+    text-wrap: balance;
+  }
+}
 
 .s-depositions {
   padding-top: 6.7rem;
