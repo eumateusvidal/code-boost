@@ -660,6 +660,63 @@ footer .copy .text p {
     margin-bottom: 2.4rem;
   }
 }
+@media (max-width: 1050px) {
+  .s-boost .container .right {
+    max-width: 100%;
+  }
+  .s-boost .container .right .box .card {
+    left: 1rem;
+    max-width: 29rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-boost {
+    padding-bottom: 0rem;
+  }
+  .s-boost .container {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .s-boost .container .left {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 4rem;
+    margin-top: 4 rem;
+  }
+  .s-boost .container .left .mockup {
+    margin-bottom: 0rem;
+  }
+  .s-boost .container .left .description::before {
+    display: none;
+  }
+  .s-boost .container .right h2 {
+    text-align: center;
+    max-width: 100%;
+    text-wrap: balance;
+  }
+  .s-boost .container .right .list {
+    max-width: 100%;
+  }
+  .s-boost .container .right .box {
+    margin-top: 6rem;
+    padding: 4rem;
+    flex-direction: column;
+    align-items: center;
+    height: 46rem;
+    gap: 5rem;
+  }
+  .s-boost .container .right .box .text {
+    max-width: 100%;
+    text-align: center;
+  }
+  .s-boost .container .right .box .text ul {
+    justify-content: center;
+  }
+  .s-boost .container .right .box .card {
+    max-width: 100%;
+    left: 0;
+  }
+}
 
 .s-depositions {
   padding-top: 6.7rem;

@@ -427,6 +427,69 @@
       }
     }
   }
+  @media (max-width: 1050px) {
+    .container {
+      .right {
+        max-width: 100%;
+        .box {
+          .card {
+            left: 1rem;
+            max-width: 29rem;
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    padding-bottom: 0rem;
+    .container {
+      flex-direction: column-reverse;
+      align-items: center;
+      .left {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4rem;
+        margin-top: 4 rem;
+        .mockup {
+          margin-bottom: 0rem;
+        }
+        .description {
+          &::before {
+            display: none;
+          }
+        }
+      }
+      .right {
+        h2 {
+          text-align: center;
+          max-width: 100%;
+          text-wrap: balance;
+        }
+        .list{
+          max-width: 100%;
+        }
+        .box {
+          margin-top: 6rem;
+          padding: 4rem;
+          flex-direction: column;
+          align-items: center;
+          height: 46rem;
+          gap: 5rem;
+          .text {
+            max-width: 100%;
+            text-align: center;
+            ul {
+              justify-content: center;
+            }
+          }
+          .card {
+            max-width: 100%;
+            left: 0;
+          }
+        }
+      }
+    }
+  }
 }
 
 .s-depositions {
