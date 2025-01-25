@@ -494,9 +494,6 @@
     padding-top: 4rem;
     .container {
       gap: 9rem;
-      .left {
-
-      }
       .right {
         height: 47rem;
         width: 100%;
@@ -623,6 +620,20 @@
       color: var(--gray-600);
       font-size: 1.8rem;
       line-height: 2.7rem;
+    }
+  }
+  @media (max-width: 1200px) {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+  @media (max-width: 99.1rem) {
+    .container {
+      .title {
+        h2 {
+          text-align: center;
+          margin: 0 auto;
+        }
+      }
     }
   }
 }
