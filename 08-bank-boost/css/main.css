@@ -853,10 +853,19 @@ footer .copy .text p {
     padding-bottom: 6rem;
   }
 }
-@media (max-width: 99.1rem) {
+@media (max-width: 991px) {
   .s-depositions .container .title h2 {
     text-align: center;
     margin: 0 auto;
+  }
+}
+@media (max-width: 561px) {
+  .s-depositions {
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+  }
+  .s-depositions .container .title h2 {
+    font-size: 2.4rem;
   }
 }
 

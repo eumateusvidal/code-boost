@@ -626,12 +626,23 @@
     padding-top: 6rem;
     padding-bottom: 6rem;
   }
-  @media (max-width: 99.1rem) {
+  @media (max-width: 991px) {
     .container {
       .title {
         h2 {
           text-align: center;
           margin: 0 auto;
+        }
+      }
+    }
+  }
+  @media (max-width: 561px) {
+    padding-top: 5.6rem;
+    padding-bottom: 5.6rem;
+    .container {
+      .title {
+        h2 {
+          font-size: 2.4rem;
         }
       }
     }
