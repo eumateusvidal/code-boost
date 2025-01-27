@@ -872,7 +872,7 @@ footer .copy .text p {
 @media (max-width: 561px) {
   .s-depositions {
     padding-top: 5.6rem;
-    padding-bottom: 5.6rem;
+    padding-bottom: 2.4rem;
     background-color: #fff;
     margin-top: -76px;
     position: relative;
@@ -984,6 +984,93 @@ footer .copy .text p {
 .s-account .container .right .mockup.two {
   top: -4.1rem;
   right: -4.8rem;
+}
+@media (max-width: 1200px) {
+  .s-account {
+    overflow-x: hidden;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  .s-account .container .left {
+    max-width: 50rem;
+  }
+  .s-account .container .left h2 {
+    font-size: 3.2rem;
+  }
+  .s-account .container .left h2 strong {
+    font-size: 3.2rem;
+  }
+  .s-account .container .left ul li {
+    gap: 1.6rem;
+  }
+  .s-account .container .left ul li:not(:last-child) {
+    margin-bottom: 3rem;
+  }
+  .s-account .container .left ul li .text h4 {
+    font-size: 1.8rem;
+  }
+  .s-account .container .left ul li .text p {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 991px) {
+  .s-account .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 6rem;
+  }
+  .s-account .container .left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .s-account .container .left h2 {
+    text-align: center;
+  }
+  .s-account .container .left h2 strong {
+    text-wrap: balance;
+  }
+  .s-account .container .left ul li {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .s-account .container .right {
+    flex: initial;
+    width: 100%;
+  }
+}
+@media (max-width: 560px) {
+  .s-account {
+    padding-top: 2.4rem;
+  }
+  .s-account .container .left h2 {
+    font-size: 2.4rem;
+  }
+  .s-account .container .left h2 strong {
+    font-size: 2.8rem;
+    max-width: 28.4rem;
+  }
+  .s-account .container .left ul {
+    margin: 4rem 0 5.6rem 0;
+    max-width: 29.3rem;
+  }
+  .s-account .container .left ul li .text h4 {
+    text-wrap: balance;
+  }
+  .s-account .container .left ul li .text p {
+    text-wrap: balance;
+  }
+  .s-account .container .right {
+    max-width: 31.1rem;
+    height: 33.9rem;
+  }
+  .s-account .container .right .mockup {
+    max-width: 23rem;
+  }
+  .s-account .container .right .mockup.one {
+    top: 1.8rem;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

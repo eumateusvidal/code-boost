@@ -646,7 +646,7 @@
   }
   @media (max-width: 561px) {
     padding-top: 5.6rem;
-    padding-bottom: 5.6rem;
+    padding-bottom: 2.4rem;
     background-color: #fff;
     margin-top: -76px;
     position: relative;
@@ -756,6 +756,105 @@
         &.two{
           top: -4.1rem;
           right: -4.8rem;
+        }
+      }
+    }
+  }
+  @media (max-width: 1200px) {
+    overflow-x: hidden;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    .container {
+      .left {
+        max-width: 50rem;
+        h2 {
+          font-size: 3.2rem;
+          strong {
+            font-size: 3.2rem;
+          }
+        }
+        ul {
+          li {
+            gap: 1.6rem;
+            &:not(:last-child){
+              margin-bottom: 3rem;
+            }
+            .text {
+              h4 {
+                font-size: 1.8rem;
+              }
+              p {
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 991px) {
+    .container {
+      flex-direction: column;
+      align-items: center;
+      gap: 6rem;
+      .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h2 {
+          text-align: center;
+          strong {
+            text-wrap: balance;
+          }
+        }
+        ul {
+          li {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+          }
+        }
+      }
+      .right {
+        flex: initial;
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: 560px) {
+    padding-top: 2.4rem;
+    .container{
+      .left {
+        h2 {
+          font-size: 2.4rem;
+          strong {
+            font-size: 2.8rem;
+            max-width: 28.4rem;
+          }
+        }
+        ul {
+          margin: 4rem 0 5.6rem 0;
+          max-width: 29.3rem;
+          li {
+            .text {
+              h4 {
+                text-wrap: balance;
+              }
+              p {
+                text-wrap: balance;
+              }
+            }
+          }
+        }
+      }
+      .right {
+        max-width: 31.1rem;
+        height: 33.9rem;
+        .mockup {
+          max-width: 23rem;
+        &.one{
+          top: 1.8rem;
+        }
         }
       }
     }
