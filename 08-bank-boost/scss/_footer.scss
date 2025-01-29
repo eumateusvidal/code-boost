@@ -20,6 +20,12 @@ footer {
     padding-bottom: 4rem;
     margin-bottom: 4rem;
     border-bottom: 1px solid rgba(255, 255, 255, 0.20);
+    a {
+      transition: all 0.3s ease;
+      &:hover {
+        opacity: 60%;
+      }
+    }
     .social-media {
       display: flex;
       align-items: center;
@@ -32,6 +38,14 @@ footer {
         display: flex;
         align-items: center;
         gap: 3rem;
+        li {
+          a {
+            transition: all 0.3s ease;
+            &:hover {
+              opacity: 60%;
+            }
+          }
+        }
       }
     }
   }
@@ -63,6 +77,10 @@ footer {
           a {
             color: rgba(255, 255, 255, 0.67);
             font-size: 1.4rem;
+            transition: all 0.3s ease;
+            &:hover {
+              color: var(--yellow);
+            }
           }
         }
       }
@@ -77,8 +95,12 @@ footer {
         gap: 1.6rem;
         border-radius: 0.6rem;
         background-color: rgba(255, 255, 255, 0.04);
+        transition: all 0.3s ease;
         &:not(:last-child) {
           margin-bottom: 2.4rem;
+        }
+        &:hover {
+          opacity: 60%;
         }
         .description {
           strong {

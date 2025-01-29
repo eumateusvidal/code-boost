@@ -7,6 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Home | Bankboost</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
@@ -37,7 +38,7 @@
   
  <section class="s-hero">
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease">
         <h3>
           Abra sua conta, é só baixar o app!
         </h3>
@@ -63,12 +64,12 @@
         </ul>
       </div>
       <div class="right">
-        <h2>
+        <h2 data-aos="zoom-in" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="400">
           Banco 100% digital
         </h2>
         <div class="cards">
-          <img src="./img/02. hero-section/card-hero-01.png" alt="imagem de um cartão" class="item card-one">
-          <img src="./img/02. hero-section/card-hero-02.png" alt="imagem de um cartão" class="item card-two">
+          <img src="./img/02. hero-section/card-hero-01.png" alt="imagem de um cartão" class="item card-one" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="300">
+          <img src="./img/02. hero-section/card-hero-02.png" alt="imagem de um cartão" class="item card-two" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="300">
         </div>
       </div>
     </div>
@@ -77,7 +78,7 @@
 
   <section class="s-boost">
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <div class="mockup">
           <img src="./img/03. boost-section/mockup-iphone.svg" alt="mockup-iphone">
         </div>
@@ -103,7 +104,7 @@
           </ul>
         </div>
       </div>
-      <div class="right">
+      <div class="right" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <h2>
           Resolva sua vida direto pelo app boost!
         </h2>
@@ -149,7 +150,7 @@
         <a href="#" class="btn">
           Conheça outros produtos
         </a>
-        <div class="box">
+        <div class="box" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-sine">
           <div class="text">
             <h3>
               Boost Pejota
@@ -179,7 +180,7 @@
     </div>
   </section>
 
-  <section class="s-depositions">
+  <section class="s-depositions" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine">
     <div class="container">
       <div class="title">
         <h2>Prático, fácil, moderno 
@@ -245,7 +246,7 @@
   
   <div class="s-account">
     <div class="container">
-      <div class="left">
+      <div class="left" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-sine">
         <h2>
           Aproveite <strong>Domine o seu dinheiro com uma conta 100% digital</strong>
         </h2>
@@ -289,8 +290,8 @@
         </a>
       </div>
       <div class="right">
-        <img src="./img/05. account-section/mockup-app-01.png" class="mockup one" alt="mockup-app-01">
-        <img src="./img/05. account-section/mockup-app-02.png" class="mockup two" alt="mockup-app-02">
+        <img src="./img/05. account-section/mockup-app-01.png" class="mockup one" alt="mockup-app-01" data-aos="fade-up" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="300">
+        <img src="./img/05. account-section/mockup-app-02.png" class="mockup two" alt="mockup-app-02" data-aos="fade-down" data-aos-duration="1000" data-aos-easing="ease-in-sine" data-aos-delay="300">
       </div>
     </div>
   </div>
@@ -441,6 +442,8 @@
       </div>
     </div>
   </footer> 
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/scripts.js"></script>

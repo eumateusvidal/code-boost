@@ -20,3 +20,5 @@ var swiper = new Swiper(".slide-deposition", {
     }
   }
 });
+
+  AOS.init();
