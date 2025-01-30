@@ -88,10 +88,12 @@
             top: 0;
             left: 0;
             z-index: 1;
+            animation: floating 5s infinite ease;
           }
           &.card-two {
             bottom: 0;
             right: 0;
+            animation: floating 10s infinite ease;
           }
         }
       }
@@ -866,6 +868,18 @@
         }
       }
     }
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 

@@ -432,10 +432,12 @@ footer .copy .text p {
   top: 0;
   left: 0;
   z-index: 1;
+  animation: floating 5s infinite ease;
 }
 .s-hero .container .right .cards .item.card-two {
   bottom: 0;
   right: 0;
+  animation: floating 10s infinite ease;
 }
 @media (max-width: 1200px) {
   .s-hero {
@@ -1166,6 +1168,18 @@ footer .copy .text p {
   }
   .s-account .container .right .mockup.one {
     top: 1.8rem;
+  }
+}
+
+@keyframes floating {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
   }
 }
 
