@@ -3,3 +3,4 @@
 [Thu Jan 30 06:51:45.294612 2025] [mpm_event:notice] [pid 31560:tid 8236270144] AH00491: caught SIGTERM, shutting down
 [Thu Jan 30 06:51:46.269668 2025] [mpm_event:notice] [pid 32549:tid 8236270144] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Thu Jan 30 06:51:46.270353 2025] [core:notice] [pid 32549:tid 8236270144] AH00094: Command line: '/Users/eumateusvidal/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/eumateusvidal/Library/Application Support/Local/run/3-KQnrQPA/conf/apache/apache2.conf'
+[Thu Jan 30 08:05:19.426715 2025] [mpm_event:notice] [pid 32549:tid 8236270144] AH00491: caught SIGTERM, shutting down
