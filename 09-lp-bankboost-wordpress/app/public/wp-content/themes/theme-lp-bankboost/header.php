@@ -44,11 +44,11 @@
       </a>
       <div class="right">
         <nav>
-          <a href="#">Produtos Boost</a>
-          <a href="#">Conta digital PJ</a>
-          <a href="#">Quem somos</a>
-          <a href="#">Blog</a>
-          <a href="#">Ajuda</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Produtos Boost</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Conta digital PJ</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Quem somos</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Blog</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Ajuda</a>
         </nav>
         <button class="btn">Abra sua conta digital</button>
       </div>
