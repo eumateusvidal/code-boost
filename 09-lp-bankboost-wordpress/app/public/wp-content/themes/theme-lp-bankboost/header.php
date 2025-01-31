@@ -7,7 +7,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Primary Meta Tags -->
-  <title>Bankboost -  Abra sua conta, é só baixar o app!</title>
+  <title><?php bloginfo('name') ?> <?php wp_title('-') ?> </title>
   <meta name="title" content="Bankboost -  Abra sua conta, é só baixar o app!" />
   <meta name="description" content="Desperte seu potencial financeiro com o Bankboost!" />
 
