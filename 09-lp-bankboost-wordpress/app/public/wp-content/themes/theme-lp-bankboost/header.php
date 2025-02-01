@@ -44,11 +44,20 @@
       </a>
       <div class="right">
         <nav>
-          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Produtos Boost</a>
+
+        <?php
+          $args = array(
+            'menu' => 'Header Principal',
+            'theme_location' => 'header-principal',
+            'container' => false
+          );
+          wp_nav_menu( $args );
+        ?>
+          <!-- <a href="<?php echo get_permalink(get_page_by_path(''))?>">Produtos Boost</a>
           <a href="<?php echo get_permalink(get_page_by_path(''))?>">Conta digital PJ</a>
           <a href="<?php echo get_permalink(get_page_by_path(''))?>">Quem somos</a>
           <a href="<?php echo get_permalink(get_page_by_path(''))?>">Blog</a>
-          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Ajuda</a>
+          <a href="<?php echo get_permalink(get_page_by_path(''))?>">Ajuda</a> -->
         </nav>
         <button class="btn">Abra sua conta digital</button>
       </div>
