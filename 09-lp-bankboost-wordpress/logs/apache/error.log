@@ -13,3 +13,7 @@
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Mateuss-MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
 [Fri Jan 31 22:34:59.354679 2025] [mpm_event:notice] [pid 15344:tid 8279769664] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Fri Jan 31 22:34:59.355119 2025] [core:notice] [pid 15344:tid 8279769664] AH00094: Command line: '/Users/eumateusvidal/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/eumateusvidal/Library/Application Support/Local/run/3-KQnrQPA/conf/apache/apache2.conf'
+[Fri Jan 31 23:24:28.851785 2025] [mpm_event:notice] [pid 15344:tid 8279769664] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using Mateuss-MacBook-Air.local. Set the 'ServerName' directive globally to suppress this message
+[Sat Feb 01 22:53:45.135364 2025] [mpm_event:notice] [pid 10406:tid 8658289216] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Sat Feb 01 22:53:45.137575 2025] [core:notice] [pid 10406:tid 8658289216] AH00094: Command line: '/Users/eumateusvidal/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/eumateusvidal/Library/Application Support/Local/run/3-KQnrQPA/conf/apache/apache2.conf'
