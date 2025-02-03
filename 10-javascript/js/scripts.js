@@ -1,3 +1,8 @@
-console.log('Hello world!!!')
+let valor01 = 10;
+let valor02 = 7;
 
-alert('Hello world')
+
+let resultado = valor01 * valor02;
+
+
+console.log(resultado);
