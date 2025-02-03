@@ -10,10 +10,10 @@
       <div class="container">
         <div class="left" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease">
           <h3>
-            Abra sua conta, é só baixar o app!
+            <?php the_field('subtitulo_section_hero') ?>
           </h3>
           <h1>
-            Desperte seu potencial financeiro com o Bankboost!
+            <?php the_field('titulo_section_hero')?>
           </h1>
           <button class="btn">
             Abra sua conta digital
