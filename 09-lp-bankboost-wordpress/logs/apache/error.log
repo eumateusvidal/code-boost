@@ -20,3 +20,4 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 [Sat Feb 01 23:07:23.414373 2025] [mpm_event:notice] [pid 10406:tid 8658289216] AH00491: caught SIGTERM, shutting down
 [Sun Feb 02 20:09:39.632279 2025] [mpm_event:notice] [pid 5241:tid 8277574208] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Sun Feb 02 20:09:39.633061 2025] [core:notice] [pid 5241:tid 8277574208] AH00094: Command line: '/Users/eumateusvidal/Library/Application Support/Local/lightning-services/apache-2.4.43+11/bin/darwin-arm64/bin/httpd -D FOREGROUND -f /Users/eumateusvidal/Library/Application Support/Local/run/3-KQnrQPA/conf/apache/apache2.conf'
+[Sun Feb 02 21:39:49.868219 2025] [mpm_event:notice] [pid 5241:tid 8277574208] AH00491: caught SIGTERM, shutting down
