@@ -1,8 +1,10 @@
-let valor01 = 10;
-let valor02 = 7;
+let possuiCarro = true;
+let possuiMoto = true;
 
-
-let resultado = valor01 * valor02;
-
-
-console.log(resultado);
+if(possuiMoto) {
+  console.log('Ele tem uma moto');
+} else if (possuiCarro) {
+  console.log('Ele tem um carro');
+} else {
+  console.log('Ele não tem nenhum veículo')
+}
