@@ -11,12 +11,21 @@
 
 // Funções
 
-function carroFavorito(carro) {
-  if(carro === 'Fusca') {
-    console.log('O carro favorito é o Fusca');  
-  } else if(carro === 'Gol') {
-    console.log('O carro favorito é o Gol');
-  } else {console.log('Nenhum carro é o seu favorito')}
-}
+// function somar(a, b) {
+//   return a + b;
+// } 
 
-carroFavorito('Golasa');
+// let resultado = somar(10, 3);
+// console.log(resultado)
+
+// Objeto
+
+let carro = {
+  nome: 'Lamborghini',
+  ano: 2025,
+  cor: 'Blue',
+  automatico: true
+};
+
+
+console.log(console)
