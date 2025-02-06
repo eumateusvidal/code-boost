@@ -20,12 +20,24 @@
 
 // Objeto
 
-let carro = {
-  nome: 'Lamborghini',
-  ano: 2025,
-  cor: 'Blue',
-  automatico: true
-};
+// let carro = {
+//   nome: 'Lamborghini',
+//   ano: 2025,
+//   cor: 'Blue',
+//   automatico: true
+// };
 
 
-console.log(console)
+// console.log(console)
+
+// Arrays e Loops
+
+// let carros = ['Fusca', 'Brasilia', 'Monza', 'Gol'];
+
+// console.log(carros.length);
+
+var carros = ['Fusca', 'Brasilia', 'Monza', 'Gol'];
+
+carros.forEach(function(array) {
+  console.log(array)
+})
