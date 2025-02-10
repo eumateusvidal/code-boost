@@ -1,3 +1,3 @@
-const dropdown = document.querySelector('.js-dropdown')
+const dropdown = document.querySelectorAll('.dropdown')
 
 console.log("js-dropdown")
