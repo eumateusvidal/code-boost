@@ -1,12 +1,7 @@
-button {
-  width: 20rem;
-  height: 5.6rem;
-  font-size: 1.6rem;
-  transition: all 0.3s ease;
-  border: none;
+body {
+  background-color: black;
 }
 
-button.active {
-  background-color: black;
+h1 {
   color: white;
 }

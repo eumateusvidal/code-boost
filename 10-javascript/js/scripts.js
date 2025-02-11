@@ -6,9 +6,7 @@
 //   })
 // })
 
-const button = document.getElementById('js-btn'); 
+const titulo = document.querySelector('.titulo');
 
-button.addEventListener('click', ()=> {
-  console.log('clicou')
-} )
+console.log(titulo.innerHTML);
 
