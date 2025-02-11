@@ -6,10 +6,9 @@
 //   })
 // })
 
-const alldropdowns = document.querySelectorAll('.dropdown');
+const button = document.getElementById('js-btn');
 
-alldropdowns.forEach((itemAtual, index, array)  => {
- console.log(itemAtual)
+button.addEventListener('click', () => {
+  button.classList.toggle('active');
 })
-
 
