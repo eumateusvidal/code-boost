@@ -6,9 +6,9 @@
 //   })
 // })
 
-const button = document.getElementById('js-btn');
+const button = document.getElementById('js-btn'); 
 
-button.addEventListener('click', () => {
-  button.classList.toggle('active');
-})
+button.addEventListener('click', ()=> {
+  console.log('clicou')
+} )
 
