@@ -1,12 +1,19 @@
-// const alldropdowns = document.querySelectorAll('.dropdown');
+const navTabs = document.querySelectorAll('.js-nav-tabs li a');
+const tabPane = document.querySelectorAll('.js-tab-pane')
 
-// alldropdowns.forEach(function(itemAtual, index, array){
-//   itemAtual.addEventListener('click', function(){
-//     console.log('Estou clicando no item ' + index)
-//   })
-// })
+navTabs.forEach((nav, index) => {
+  nav.addEventListener('click', (event) => {
+    event.preventDefault();
+    navTabs.forEach(itemNav => {
+      itemNav.classList.remove('active');
+    })
 
-const titulo = document.querySelector('.titulo');
+    tabPane.forEach(tab => {
+      tab.classList.remove('active')
+    })
 
-console.log(titulo.innerHTML);
+    nav.classList.add('active');
 
+    tabPane[index].classList.add('active')
+  })
+} )
