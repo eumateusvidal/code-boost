@@ -1,19 +1,9 @@
-const navTabs = document.querySelectorAll('.js-nav-tabs li a');
-const tabPane = document.querySelectorAll('.js-tab-pane')
+const accordion = document.querySelectorAll('.js-accordion')
 
-navTabs.forEach((nav, index) => {
-  nav.addEventListener('click', (event) => {
-    event.preventDefault();
-    navTabs.forEach(itemNav => {
-      itemNav.classList.remove('active');
+accordion.forEach(acc => {
+    acc.addEventListener('click', () => {
+      let pai = acc.parentElement;
+
+      pai.classList.toggle('active')
     })
-
-    tabPane.forEach(tab => {
-      tab.classList.remove('active')
-    })
-
-    nav.classList.add('active');
-
-    tabPane[index].classList.add('active')
-  })
-} )
+})
