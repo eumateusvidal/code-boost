@@ -24,8 +24,63 @@ header {
     justify-content: space-between;
     gap: 10.4rem;
     nav {
+      position: relative;
       display: flex;
       gap: 4rem;
+      .dropdown {
+        z-index: 99;
+        position: absolute;
+        top: 49px;
+        left: -132px;
+        width: 100%;
+        max-width: 37.4rem;
+        background-color: var(--white);
+        border-radius: 6px;
+        padding: 4rem;
+        opacity: 0;
+        pointer-events: none;
+        transform: translateY(20px);
+        transition: all .3s;
+        &.active {
+          opacity: 1;
+          pointer-events: all;
+          transform: translateY(0px);
+        }
+        &::after{
+          content: '';
+          width: 29.4rem;
+          height: 5px;
+          background-color: var(--yellow);
+          border-radius: 1.2rem 1.2rem 0px 0px;
+          position: absolute;
+          bottom: 0;
+        }
+        .item {
+          display: flex;
+          align-items: flex-start;
+          flex-direction: column;
+          gap: 0.8rem;
+          cursor: pointer;
+          &:not(:last-child){
+            margin-bottom: 3.2rem;
+          }
+          &:hover{
+            strong {
+              color: var(--purple-10);
+              transition: color 0.3s ease;
+            }
+          }
+        
+          strong {
+            font-size: 1.6rem;
+            color: var(--gray-700);
+          }
+          p {
+            font-size: 1.4rem;
+            color: var(--gray-500);
+          }
+        }
+      }
       a {
         color: var(--gray-100);
         font-size: 1.6rem;

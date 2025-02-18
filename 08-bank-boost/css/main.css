@@ -92,8 +92,60 @@ header .right {
   gap: 10.4rem;
 }
 header .right nav {
+  position: relative;
   display: flex;
   gap: 4rem;
+}
+header .right nav .dropdown {
+  z-index: 99;
+  position: absolute;
+  top: 49px;
+  left: -132px;
+  width: 100%;
+  max-width: 37.4rem;
+  background-color: var(--white);
+  border-radius: 6px;
+  padding: 4rem;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(20px);
+  transition: all 0.3s;
+}
+header .right nav .dropdown.active {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+}
+header .right nav .dropdown::after {
+  content: "";
+  width: 29.4rem;
+  height: 5px;
+  background-color: var(--yellow);
+  border-radius: 1.2rem 1.2rem 0px 0px;
+  position: absolute;
+  bottom: 0;
+}
+header .right nav .dropdown .item {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 0.8rem;
+  cursor: pointer;
+}
+header .right nav .dropdown .item:not(:last-child) {
+  margin-bottom: 3.2rem;
+}
+header .right nav .dropdown .item:hover strong {
+  color: var(--purple-10);
+  transition: color 0.3s ease;
+}
+header .right nav .dropdown .item strong {
+  font-size: 1.6rem;
+  color: var(--gray-700);
+}
+header .right nav .dropdown .item p {
+  font-size: 1.4rem;
+  color: var(--gray-500);
 }
 header .right nav a {
   color: var(--gray-100);
