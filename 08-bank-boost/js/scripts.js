@@ -35,3 +35,4 @@ function openDropdown(event) {
 
 btnDropdown.addEventListener('click', openDropdown);
 btnDropdown.addEventListener('mouseleave', openDropdown);
+
