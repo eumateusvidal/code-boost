@@ -20,7 +20,5 @@ const linksSection = document.querySelectorAll ('.js-nav li a');
     link.addEventListener('click', scrollToSection);
   })
 
-function fixedMenu() {
-  console.log('scroll');
-}
+
 

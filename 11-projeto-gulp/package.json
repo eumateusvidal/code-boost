@@ -1,0 +1,11 @@
+{
+  "name": "codeboost-gulp",
+  "version": "1.0.0",
+  "description": "Um projeto criado para o codeboost",
+  "main": "index.js",
+  "author": "Matt Vidal",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^5.0.0"
+  }
+}
